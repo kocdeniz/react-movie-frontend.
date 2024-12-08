@@ -3,7 +3,6 @@ FROM node:18 AS builder
 
 # Çalışma dizinini ayarla
 WORKDIR /app
-COPY . .
 
 # package.json ve package-lock.json dosyalarını kopyala
 COPY package*.json ./
